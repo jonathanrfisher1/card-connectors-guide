@@ -1,1 +1,1 @@
-dsds
+# Welcome to the Card Connectors Specification
