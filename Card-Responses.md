@@ -105,9 +105,7 @@ The connector JSON response schema is defined using the json-schema.org syntax a
   }
 }
 ```
-
 ## Example response
-
 ```javascript
 {
   "cards": [{
