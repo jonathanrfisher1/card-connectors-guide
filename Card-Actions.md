@@ -5,7 +5,8 @@ For example, in our [Weather sample](https://github.com/vmwaresamples/card-conne
 ```
 curl -i -X POST \
    -H "Authorization:Bearer eyJ0eXAiO" \
+   -H "Content-Type:application/x-www-form-urlencoded" \
    -d "zip=30360" \
-   -d "temperature=90" \
+   -d "temperature=901" \
  'http://localhost:3000/reports'
 ```
