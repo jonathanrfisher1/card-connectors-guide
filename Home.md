@@ -1,6 +1,6 @@
-# Welcome to the Card Connectors Specification
+# Card Connectors Specification
 
-# Table of Contents
+## Table of Contents
 
 1. [Request Headers](https://github.com/vmwaresamples/card-connectors-guide/wiki/Request-headers) 
 2. Response Headers
