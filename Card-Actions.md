@@ -1,4 +1,4 @@
-Actions are invoked on a connector by POSTing form data to one of its action endpoints.
+Card actions are invoked on a connector by POSTing form data to one of its action endpoints.
 
 For example, in our Weather sample, the action to update the current temperature is invoked thus:
 
