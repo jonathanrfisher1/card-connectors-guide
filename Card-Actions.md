@@ -1,6 +1,6 @@
 Card actions are invoked on a connector by POSTing form data to one of its action endpoints.
 
-For example, in our Weather sample, the action to update the current temperature is invoked thus:
+For example, in our [Weather sample](https://github.com/vmwaresamples/card-connectors-guide/tree/master/samples/node), the action to update the current temperature is invoked thus:
 
 ```
 curl -i -X POST \
