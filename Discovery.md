@@ -17,4 +17,20 @@ Here is an example:
   }
 }
 ```   
-Here, the `cards` link
+Here, the `cards` link tells Hero where to submit card requests. The `metadata` link tells Hero where to retrieve additional information.
+
+In our example, the `metadata` endpoint returns the following:
+```
+{
+  "authorization_header": "x-acme-authorization",
+  "backend_base_url_header": "x-acme-base-url",
+  "fields": {
+    "user_email": {
+      "env": "USER_EMAIL"
+    },
+    "sender_email": {
+      "regex": "([A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6})"
+    }
+  }
+}
+```
