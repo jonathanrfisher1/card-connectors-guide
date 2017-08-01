@@ -22,8 +22,8 @@ Here, the `cards` link tells Hero where to submit card requests. The `metadata` 
 In our example, the `metadata` endpoint returns the following:
 ```
 {
-  "authorization_header": "x-acme-authorization",
-  "backend_base_url_header": "x-acme-base-url",
+  "authorization_header": "x-weather-authorization",
+  "backend_base_url_header": "x-weather-base-url",
   "fields": {
     "user_email": {
       "env": "USER_EMAIL"
@@ -34,3 +34,8 @@ In our example, the `metadata` endpoint returns the following:
   }
 }
 ```
+`authorization_header` is telling Hero the header to pass for any backend authentication. If so, Hero will pass it in `x-weather-authorization` and it is the connector's responsibility to copy it into the `Authorization` header before making calls to the backend. This won't be required if the backend uses the same authentication scheme as the connector.
+
+Similarly, `backend_base_url_header` is telling Hero the header to pass to indicate the base URL of the backend. This won't be required if the connector is tied to a single backend instance.
+
+The `fields` object is telling Hero what to pass for the `tokens` in a card request. In our example, the connector is requesting `user_email` and `sender_email`. `user_email` will be acquired from the client device's environment. `sender_email` will be extracted from some text using the supplied regular expression.
