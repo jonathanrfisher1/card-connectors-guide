@@ -34,7 +34,7 @@ In our example, the `metadata` endpoint returns the following:
   }
 }
 ```
-`authorization_header` is telling Hero the header to pass for any backend authentication. If so, Hero will pass it in `x-weather-authorization` and it is the connector's responsibility to copy it into the `Authorization` header before making calls to the backend. This won't be required if the backend uses the same authentication scheme as the connector.
+`authorization_header` is telling Hero the header to pass for any backend authentication. Hero will pass the token in `x-weather-authorization` and it is the connector's responsibility to copy it into the `Authorization` header before making calls to the backend. This won't be required if the backend uses the same authentication scheme as the connector.
 
 Similarly, `backend_base_url_header` is telling Hero the header to pass to indicate the base URL of the backend. This won't be required if the connector is tied to a single backend instance.
 
