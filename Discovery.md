@@ -6,6 +6,15 @@ The content behind the discovery URL must be in [HAL](http://stateless.co/hal_sp
 
 Here is an example:
 ```
-{"_links":{"metadata":{"href":"http://localhost:3000/discovery/metadata.json"},"cards":{"href":"http://localhost:3000/cards/requests"}}}
+{
+  "_links": {
+    "metadata": {
+      "href": "http://acme.com/connectors/weather/discovery/metadata.json"
+    },
+    "cards":{
+      "href": "http://acme.com/connectors/weather/cards/requests"
+    }
+  }
+}
 ```   
 
