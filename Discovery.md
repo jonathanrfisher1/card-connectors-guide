@@ -5,7 +5,7 @@ Discovery tells the Hero Card Service where to submit card requests, which heade
 The content behind the discovery URL must be in [HAL](http://stateless.co/hal_specification.html) format. 
 
 Here is an example:
+```
+{"_links":{"metadata":{"href":"http://localhost:3000/discovery/metadata.json"},"cards":{"href":"http://localhost:3000/cards/requests"}}}
+```   
 
-```
-cooc
-```
