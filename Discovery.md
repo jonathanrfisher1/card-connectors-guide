@@ -25,11 +25,8 @@ In our example, the `metadata` endpoint returns the following:
   "authorization_header": "x-weather-authorization",
   "backend_base_url_header": "x-weather-base-url",
   "fields": {
-    "user_email": {
-      "env": "USER_EMAIL"
-    },
-    "sender_email": {
-      "regex": "([A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6})"
+    "zip": {
+      "regex": "^\d{5}(?:[-\s]\d{4})?$"
     }
   }
 }
@@ -38,4 +35,4 @@ In our example, the `metadata` endpoint returns the following:
 
 Similarly, `backend_base_url_header` is telling Hero the header to pass to indicate the base URL of the backend. This won't be required if the connector is tied to a single backend instance.
 
-The `fields` object is telling Hero what to pass for the `tokens` in a card request. In our example, the connector is requesting `user_email` and `sender_email`. `user_email` will be acquired from the client device's environment. `sender_email` will be extracted from some text using the supplied regular expression.
+The `fields` object is telling Hero what to pass for the `tokens` in a card request. In our example, the connector is requesting `zip`, which will be extracted from some text using the supplied regular expression.
