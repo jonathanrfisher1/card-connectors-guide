@@ -13,8 +13,11 @@ Here is an example:
     "metadata": {
       "href": "http://acme.com/connectors/weather/discovery/metadata.json"
     },
-    "cards":{
+    "cards": {
       "href": "http://acme.com/connectors/weather/cards/requests"
+    },
+    "self": {
+      "href": "http://acme.com/connectors/weather"
     }
   }
 }
