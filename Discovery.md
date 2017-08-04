@@ -2,7 +2,9 @@ A connector is registered with the Hero Card Service by adding a discovery URL. 
 
 Discovery tells the Hero Card Service where to submit card requests, which headers to pass, etc.
 
-The content behind the discovery URL must be in [HAL](http://stateless.co/hal_specification.html) format and its `Content-Type` must be set to `application/hal+json`.
+The content behind the discovery URL MUST be in [HAL](http://stateless.co/hal_specification.html) format and its `Content-Type` MUST be set to `application/hal+json`.
+
+All discovery resources MUST be available to unauthenticated clients.
 
 Here is an example:
 ```
