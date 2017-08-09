@@ -51,4 +51,6 @@ Fields can also be used to request the value of environment variables. For examp
 Here, the connector is requesting a token, `user_email`, which is taken from the the `USER_EMAIL` environment variable.
 The full list of available environment variables is below:
 
+|Variable|Description|
+-----------|------------------------|
 |USER_EMAIL|The user's email address|
