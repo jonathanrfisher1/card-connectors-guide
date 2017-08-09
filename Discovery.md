@@ -41,3 +41,14 @@ In our example, the `metadata` endpoint returns the following:
 Similarly, `backend_base_url_header` is telling Hero the header to pass to indicate the base URL of the backend. This won't be required if the connector is tied to a single backend instance.
 
 The `fields` object is telling Hero what to pass for the `tokens` in a card request. In our example, the connector is requesting `zip`, which will be extracted from some text using the supplied regular expression.
+
+Fields can also be used to request the value of environment variables. For example:
+```
+"fields": {
+  "user_email": {"env": "USER_EMAIL"} 
+}
+```
+Here, the connector is requesting a token, `user_email`, which is taken from the the `USER_EMAIL` environment variable.
+The full list of available environment variables is below:
+
+|USER_EMAIL|The user's email address|
