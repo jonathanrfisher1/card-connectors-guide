@@ -51,6 +51,16 @@ Fields can also be used to request the value of environment variables. For examp
 Here, the connector is requesting a token, `user_email`, which is taken from the the `USER_EMAIL` environment variable.
 The full list of available environment variables is below:
 
-|Variable|Description|
+| Variable | Description|
 -----------|------------------------|
-|USER_EMAIL|The user's email address|
+| USER_EMAIL | The user's email address|
+| ENROLLMENT_IDENTIFIER | MDM unique enrollment identifier |
+| ENROLLMENT_USERNAME | MDM enrollment username |
+| ENROLLMENT_GROUP_IDENTIFIER | MDM enrollment group |
+| ENROLLMENT_DEVICE_UDID | MDM enrollment device unique identifier |
+| DEVICE_IDENTIFIER | Operating system device unique identifier |
+| DEVICE_MODEL | Operating system device model |
+| DEVICE_NAME | Operating system device name |
+| DEVICE_SYSTEM_NAME | Operating system system name (‘iOS’) |
+| DEVICE_SYSTEM_VERSION | Operating system version (‘10.0’) |
+| DEVICE_UI_IDIOM | Operating system device idiom (‘tablet’)|
