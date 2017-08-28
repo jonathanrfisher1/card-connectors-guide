@@ -31,7 +31,7 @@ In our example, the `metadata` endpoint returns the following:
   "backend_base_url_header": "x-weather-base-url",
   "fields": {
     "zip": {
-      "regex": "^\d{5}(?:[-\s]\d{4})?$"
+      "regex": "(^\d{5}(?:[-\s]\d{4})?$)"
     }
   }
 }
