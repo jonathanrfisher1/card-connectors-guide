@@ -10,7 +10,7 @@ Here is an example response:
     "name": "Salesforce",
     "creation_date":"2017-01-01T00:00:00.000+00:00",
     "template": {
-      "href": "/connectors/salesforce/templates/generic.hbs"
+      "href": "https://prod.hero.vmwservices.com/connectors/salesforce/templates/generic.hbs"
     },
     "header": {
       "title": "Add a contact in Salesforce?"
@@ -22,7 +22,7 @@ Here is an example response:
       "id" : "186ee70f-07c6-4a38-81b1-2d9776b841ff",
       "label": "Add contact",
       "url": {
-        "href": "/connectors/salesforce/accounts/001Q0000012gRPoIAM/contacts"
+        "href": "https://prod.hero.vmwservices.com/connectors/salesforce/accounts/001Q0000012gRPoIAM/contacts"
       },
       "type": "POST",
       "action_key": "USER_INPUT",
@@ -56,7 +56,7 @@ Here is an example response:
     "connector_id": "salesforce",
     "name": "Salesforce",
     "template": {
-      "href": "/connectors/salesforce/templates/generic.hbs"
+      "href": "https://prod.hero.vmwservices.com/connectors/salesforce/templates/generic.hbs"
     },
     "header": {
       "title": "Add a contact in Salesforce?"
@@ -68,7 +68,7 @@ Here is an example response:
       "id" : "26f39b09-1ee5-4c67-b1ff-ffd40d31e820",
       "label": "Add contact",
       "url": {
-        "href": "/connectors/salesforce/accounts/001Q0000012gkPHIAY/contacts"
+        "href": "https://prod.hero.vmwservices.com/connectors/salesforce/accounts/001Q0000012gkPHIAY/contacts"
       },
       "type": "POST",
       "action_key": "USER_INPUT",
@@ -101,7 +101,7 @@ Here is an example response:
     "connector_id": "salesforce",
     "name": "Salesforce",
     "template": {
-      "href": "/connectors/salesforce/templates/generic.hbs"
+      "href": "https://prod.hero.vmwservices.com/connectors/salesforce/templates/generic.hbs"
     },
     "header": {
       "title": "Add a contact in Salesforce?"
@@ -113,7 +113,7 @@ Here is an example response:
       "id" : "23726efd-d714-4836-8d12-e588f5b26f51",
       "label": "Add contact",
       "url": {
-        "href": "/connectors/salesforce/accounts/001Q0000012glcuIAA/contacts"
+        "href": "https://prod.hero.vmwservices.com/connectors/salesforce/accounts/001Q0000012glcuIAA/contacts"
       },
       "type": "POST",
       "action_key": "USER_INPUT",
