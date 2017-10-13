@@ -6,8 +6,6 @@ Here is an example response:
 {
   "cards": [{
     "id" : "ed05c962-9a5b-46d1-ae3a-4f4da6fbe6b0",
-    "connector_id": "salesforce",
-    "name": "Salesforce",
     "creation_date":"2017-01-01T00:00:00.000+00:00",
     "template": {
       "href": "https://prod.hero.vmwservices.com/connectors/salesforce/templates/generic.hbs"
@@ -53,8 +51,6 @@ Here is an example response:
     }]
   }, {
     "id" : "665c98a4-c60d-4d1d-8366-55fc9f98136c",
-    "connector_id": "salesforce",
-    "name": "Salesforce",
     "template": {
       "href": "https://prod.hero.vmwservices.com/connectors/salesforce/templates/generic.hbs"
     },
@@ -98,8 +94,6 @@ Here is an example response:
     }]
   }, {
     "id" : "0546d815-7106-49e4-ba97-75c5d573d14e",
-    "connector_id": "salesforce",
-    "name": "Salesforce",
     "template": {
       "href": "https://prod.hero.vmwservices.com/connectors/salesforce/templates/generic.hbs"
     },
