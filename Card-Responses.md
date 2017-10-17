@@ -19,6 +19,7 @@ Here is an example response:
     "actions": [{
       "id" : "186ee70f-07c6-4a38-81b1-2d9776b841ff",
       "label": "Add contact",
+      "completed_label": "Contact added successfully",
       "url": {
         "href": "https://prod.hero.vmwservices.com/connectors/salesforce/accounts/001Q0000012gRPoIAM/contacts"
       },
