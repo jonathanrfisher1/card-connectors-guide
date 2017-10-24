@@ -16,13 +16,16 @@ Here is an example:
     "cards": {
       "href": "http://acme.com/connectors/weather/cards/requests"
     },
+    "image": {
+      "href": "http://acme.com/connectors/weather/images/connector.png"
+    },
     "self": {
       "href": "http://acme.com/connectors/weather"
     }
   }
 }
 ```   
-Here, the `cards` link tells Hero where to submit card requests. The `metadata` link tells Hero where to retrieve additional information.
+Here, the `cards` link tells Hero where to submit card requests. The `metadata` link tells Hero where to retrieve additional information. The `image` link tells Hero where to find an image to be displayed within cards.
 
 In our example, the `metadata` endpoint returns the following:
 ```
