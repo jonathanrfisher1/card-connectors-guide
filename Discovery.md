@@ -11,16 +11,16 @@ Here is an example:
 {
   "_links": {
     "metadata": {
-      "href": "http://acme.com/connectors/weather/discovery/metadata.json"
+      "href": "http://acme.com/connectors/weather-connector-id/discovery/metadata.json"
     },
     "cards": {
-      "href": "http://acme.com/connectors/weather/cards/requests"
+      "href": "http://acme.com/connectors/weather-connector-id/cards/requests"
     },
     "image": {
-      "href": "http://acme.com/connectors/weather/images/connector.png"
+      "href": "http://acme.com/connectors/weather-connector-id/images/connector.png"
     },
     "self": {
-      "href": "http://acme.com/connectors/weather"
+      "href": "http://acme.com/connectors/weather-connector-id"
     }
   }
 }
