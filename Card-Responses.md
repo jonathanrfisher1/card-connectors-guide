@@ -28,12 +28,12 @@ Here is an example response:
             "title": "Weather forecast for 30332"
           },
           "template": {
-            "href": "http://jbard-m01.local/connectors/238ff136-1f49-4c88-8acd-aa4c3749a75c/templates/generic.hbs"
+            "href": "http://acme.com/connectors/weather-connector-id/templates/generic.hbs"
           },
           "actions": [
             {
               "url": {
-                "href": "http://jbard-m01.local/connectors/238ff136-1f49-4c88-8acd-aa4c3749a75c/reports"
+                "href": "http://acme.com/connectors/weather-connector-id/reports"
               },
               "id": "75befd7f-99f0-4980-90a6-8daf6270770f",
               "user_input": [
@@ -73,12 +73,12 @@ Here is an example response:
             "title": "Weather forecast for 30067"
           },
           "template": {
-            "href": "http://jbard-m01.local/connectors/238ff136-1f49-4c88-8acd-aa4c3749a75c/templates/generic.hbs"
+            "href": "http://acme.com/connectors/weather-connector-id/templates/generic.hbs"
           },
           "actions": [
             {
               "url": {
-                "href": "http://jbard-m01.local/connectors/238ff136-1f49-4c88-8acd-aa4c3749a75c/reports"
+                "href": "http://acme.com/connectors/weather-connector-id/reports"
               },
               "id": "6d8caf05-e93d-4521-b603-c5a4dffc5176",
               "user_input": [
@@ -118,12 +118,12 @@ Here is an example response:
             "title": "Weather forecast for 00100"
           },
           "template": {
-            "href": "http://jbard-m01.local/connectors/238ff136-1f49-4c88-8acd-aa4c3749a75c/templates/generic.hbs"
+            "href": "http://acme.com/connectors/weather-connector-id/templates/generic.hbs"
           },
           "actions": [
             {
               "url": {
-                "href": "http://jbard-m01.local/connectors/238ff136-1f49-4c88-8acd-aa4c3749a75c/reports"
+                "href": "http://acme.com/connectors/weather-connector-id/reports"
               },
               "id": "5ede58dc-c479-46e0-a70e-03b772fb78fd",
               "user_input": [
@@ -163,12 +163,12 @@ Here is an example response:
             "title": "Weather forecast for 30080"
           },
           "template": {
-            "href": "http://jbard-m01.local/connectors/238ff136-1f49-4c88-8acd-aa4c3749a75c/templates/generic.hbs"
+            "href": "http://acme.com/connectors/weather-connector-id/templates/generic.hbs"
           },
           "actions": [
             {
               "url": {
-                "href": "http://jbard-m01.local/connectors/238ff136-1f49-4c88-8acd-aa4c3749a75c/reports"
+                "href": "http://acme.com/connectors/weather-connector-id/reports"
               },
               "id": "2274b789-7179-44e9-8c11-941cfa58c9b0",
               "user_input": [
@@ -188,7 +188,7 @@ Here is an example response:
           ]
         }
       ],
-      "connector_id": "238ff136-1f49-4c88-8acd-aa4c3749a75c"
+      "connector_id": "weather-connector-id"
     }
   ]
 }
