@@ -6,9 +6,19 @@ Here is an example request:
 
 ```javascript
 {
-   "id":"weather",
-   "tokens":{
-     "zip":["30360", "30338"]
-   }
+  "card_requests": [
+    {
+      "name": "External Weather con.",
+      "tokens": {
+        "zip": [
+          "30080",
+          "30067",
+          "30332",
+          "00100"
+        ]
+      },
+      "connector_id": "238ff136-1f49-4c88-8acd-aa4c3749a75c"
+    }
+  ]
 }
 ``` 
