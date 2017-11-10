@@ -8,7 +8,6 @@ Here is an example request:
 {
   "card_requests": [
     {
-      "name": "External Weather con.",
       "tokens": {
         "zip": [
           "30080",
