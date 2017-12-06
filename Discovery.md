@@ -19,13 +19,20 @@ Here is an example:
     "image": {
       "href": "http://acme.com/connectors/weather-connector-id/images/connector.png"
     },
+    "test_auth": {
+      "href": "http://acme.com/connectors/weather-connector-id/test-auth"
+    },
     "self": {
       "href": "http://acme.com/connectors/weather-connector-id"
     }
   }
 }
 ```   
-Here, the `cards` link tells Hero where to submit card requests. The `metadata` link tells Hero where to retrieve additional information. The `image` link tells Hero where to find an image to be displayed within cards.
+Here, the `cards` link tells Hero where to submit card requests. The `metadata` link tells Hero where to retrieve additional information. 
+
+The `image` link tells Hero where to find an image to be displayed within cards.
+
+The `test_auth` link offers an endpoint for testing the backend authorization. This is useful where BASIC authentication is used, and the authorization value is derived from (possibly mistyped) user input. The endpoint will be accessed with a GET request with the same headers as would be used with a card request.
 
 In our example, the `metadata` endpoint returns the following:
 ```
