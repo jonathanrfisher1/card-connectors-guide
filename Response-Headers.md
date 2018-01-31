@@ -15,4 +15,4 @@ Code   | Meaning
 Header | Description
 ------ | ---------
 Content-Type | Always `application/json`.
-X-Backend-Status | The status code returned by the backend if not a 2xx code.
+X-Backend-Status | The status code returned by the backend if not a 2xx code. If this header is set then the connector's status code should be 400 if the backend has returned 401, otherwise 500.
