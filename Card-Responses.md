@@ -3,8 +3,6 @@ The [JSON schema](http://json-schema.org/) for a card response can be found [her
 Here is an example response:
 
 ```javascript
-{
-  "results": [
     {
       "cards": [
         {
@@ -190,6 +188,5 @@ Here is an example response:
       ],
       "connector_id": "weather-connector-id"
     }
-  ]
-}
+
 ``` 
