@@ -30,7 +30,7 @@ Here is an example:
 ```   
 Here, the `cards` link tells Hero where to submit card requests. The `metadata` link tells Hero where to retrieve additional information. 
 
-The `image` link tells Hero where to find an image to be displayed within cards.
+The `image` link tells Hero where to find an image to be displayed within cards.  The image should be a png.
 
 The `test_auth` link offers an endpoint for testing the backend authorization. This is useful where BASIC authentication is used, and the authorization value is derived from (possibly mistyped) user input. The endpoint will be accessed with a GET request with the same headers as would be used with a card request.
 
