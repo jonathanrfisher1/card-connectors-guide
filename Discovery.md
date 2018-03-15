@@ -41,6 +41,7 @@ In our example, the `metadata` endpoint returns the following:
   "backend_base_url_header": "x-weather-base-url",
   "fields": {
     "zip": {
+      "capture_group": 1,
       "regex": "([0-9]{5})(?:[- ][0-9]{4})?"
     }
   }
