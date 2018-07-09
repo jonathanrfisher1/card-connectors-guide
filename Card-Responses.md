@@ -4,7 +4,7 @@ Here is an example response:
 
 ```javascript
 {
-  "cards": [
+  "objects": [
     {
       "body": {
         "fields": [
