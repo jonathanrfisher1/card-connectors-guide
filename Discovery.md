@@ -13,7 +13,7 @@ Here is an example:
     "metadata": {
       "href": "http://acme.com/connectors/weather-connector-id/discovery/metadata.json"
     },
-    "cards": {
+    "objects": {
       "href": "http://acme.com/connectors/weather-connector-id/cards/requests"
     },
     "image": {
@@ -28,7 +28,7 @@ Here is an example:
   }
 }
 ```   
-Here, the `cards` link tells Hero where to submit card requests. The `metadata` link tells Hero where to retrieve additional information. 
+Here, the `objects` link tells Hero where to submit card requests. The `metadata` link tells Hero where to retrieve additional information. 
 
 The `image` link tells Hero where to find an image to be displayed within cards.  The image should be a png.
 
@@ -39,6 +39,7 @@ In our example, the `metadata` endpoint returns the following:
 {
   "authorization_header": "x-weather-authorization",
   "backend_base_url_header": "x-weather-base-url",
+  "object_type": "card",
   "fields": {
     "zip": {
       "capture_group": 1,
@@ -50,6 +51,8 @@ In our example, the `metadata` endpoint returns the following:
 `authorization_header` is telling Hero the header to pass for any backend authentication. Hero will pass the token in `x-weather-authorization` and it is the connector's responsibility to copy it into the `Authorization` header before making calls to the backend. This won't be required if the backend uses the same authentication scheme as the connector.
 
 Similarly, `backend_base_url_header` is telling Hero the header to pass to indicate the base URL of the backend. This won't be required if the connector is tied to a single backend instance.
+
+The `object_type` is telling Hero that the results will be card objects.
 
 The `fields` object is telling Hero what to pass for the `tokens` in a card request. In our example, the connector is requesting `zip`, which will be extracted from some text using the supplied regular expression.
 
