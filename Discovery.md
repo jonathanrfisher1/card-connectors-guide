@@ -34,15 +34,15 @@ Here is an example:
   ]
 }
 ```   
-The `image` link tells Hero where to find an image to be displayed within cards.  The image should be a PNG.
+The `image` link tells Mobile Flows Server where to find an image to be displayed by clients.  The image should be a PNG.
 
-The `test_auth` link offers an endpoint for testing the backend authorization. This is useful where BASIC authentication is used, and the authorization value is derived from (possibly mistyped) user input. The endpoint will be accessed with a GET request with the same headers as would be used with a card request.
+The `test_auth` link offers an endpoint for testing the backend authorization. This is useful where BASIC authentication is used, and the authorization value is derived from (possibly mistyped) user input. The endpoint will be accessed with a GET request with the same headers as would be used with an object request.
 
 The `object_types` array describes the object types supported by this connector.
 
 Each object type has a name, some fields, an endpoint, and an optional doc link. The name identifies the object type, while the optional doc link should point to a schema so that consumers of these objects know what they're consuming. The endpoint is a URL to which Mobile Flows Server will post object requests.
 
-The `fields` object is telling Hero what to pass for the `tokens` in an object request. In our example, the connector is requesting `zip`, which will be extracted from some text using the supplied regular expression.
+The `fields` object is telling Mobile Flows Server what to pass for the `tokens` in an object request. In our example, the connector is requesting `zip`, which will be extracted from some text using the supplied regular expression.
 
 Fields can also be used to request the value of environment variables. For example:
 ```
