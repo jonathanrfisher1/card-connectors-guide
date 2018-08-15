@@ -1,6 +1,6 @@
-A connector is registered with the Mobile Flows Server by adding a discovery URL. This URL might point to the connector itself, or it might point to static web content (for example, Amazon S3).
+A connector is registered with Mobile Flows Server by adding a discovery URL. This URL might point to the connector itself, or it might point to static web content (for example, Amazon S3).
 
-Discovery tells the Mobile Flows Server where to submit object requests, etc.
+Discovery tells Mobile Flows Server where to submit object requests, etc.
 
 The content behind the discovery is JSON and its `Content-Type` should be set to `application/json`.
 
