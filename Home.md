@@ -4,7 +4,7 @@
 
 1. [Discovery](https://github.com/vmwaresamples/card-connectors-guide/wiki/Discovery)
 2. [Request Headers](https://github.com/vmwaresamples/card-connectors-guide/wiki/Request-headers) 
-3. Response Headers
+3. Responses
     * [Status Codes](https://github.com/vmwaresamples/card-connectors-guide/wiki/Response-headers#status-codes)
     * [Headers](https://github.com/vmwaresamples/card-connectors-guide/wiki/Response-headers#headers)
 4. [Card Requests](https://github.com/vmwaresamples/card-connectors-guide/wiki/Card-Requests)
