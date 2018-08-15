@@ -1,6 +1,39 @@
 {
   "authorization_header": "X-Weather-Authorization",
   "fields": {
+    "user_email": {
+      "env": "USER_EMAIL"
+    },
+    "enrollment_identifier": {
+      "env": "ENROLLMENT_IDENTIFIER"
+    },
+    "enrollment_username": {
+      "env": "ENROLLMENT_USERNAME"
+    },
+    "enrollment_group_identifier": {
+      "env": "ENROLLMENT_GROUP_IDENTIFIER"
+    },
+    "enrollment_device_udid": {
+      "env": "ENROLLMENT_DEVICE_UDID"
+    },
+    "device_identifier": {
+      "env": "DEVICE_IDENTIFIER"
+    },
+    "device_model": {
+      "env": "DEVICE_MODEL"
+    },
+    "device_name": {
+      "env": "DEVICE_NAME"
+    },
+    "device_system_name": {
+      "env": "DEVICE_SYSTEM_NAME"
+    },
+    "device_system_version": {
+      "env": "DEVICE_SYSTEM_VERSION"
+    },
+    "device_ui_idiom": {
+      "env": "DEVICE_UI_IDIOM"
+    },
     "zip": {
       "regex": "([0-9]{5})(?:[- ][0-9]{4})?"
     }
