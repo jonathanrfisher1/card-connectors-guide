@@ -7,5 +7,5 @@ Accept | The content type Hero expects to see for valid responses. In all cases 
 Content-Type | The content type for requests from Hero. For card requests this will be `application/json`. For action requests this will be `application/x-www-form-urlencoded`.
 Accept-Language | The requested language for the card. Connectors that don't support internationalization can ignore this header.
 X-Routing-Prefix | The connector must prefix action URLs with the value of this header if action calls are to be routed via Hero. Sent only with card requests.
-X-[CONNECTOR]-Base-Url | Connectors that support multiple backends can use this header to route traffic accordingly. Example: `X-Weather-Base-Url: https://222.wikiweather.org/weather`.
-X-[CONNECTOR]-Authorization | The authorization header expected by the backend. Typically the connector will copy this value into the `Authorization` header before making a backend request.
+X-Connector-Base-Url | Connectors that support multiple backends can use this header to route traffic accordingly. Example: `X-Weather-Base-Url: https://222.wikiweather.org/weather`.
+X-Connector-Authorization | The authorization header expected by the backend. Typically the connector will copy this value into the `Authorization` header before making a backend request.
