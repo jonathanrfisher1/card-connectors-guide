@@ -18,6 +18,7 @@ For example, in our [Weather sample](https://github.com/vmwaresamples/card-conne
 ```
 curl -i -X POST \
    -H "Authorization:Bearer eyJ0eXAiO" \
+   -H "X-Connector-Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=" \
    -H "Content-Type:application/x-www-form-urlencoded" \
    -d "zip=30360" \
    -d "temperature=90" \
