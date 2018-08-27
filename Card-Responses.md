@@ -185,8 +185,7 @@ Here is an example response:
         }
       ]
     }
-  ],
-  "connector_id": "weather-connector-id"
+  ]
 }
 
 ``` 
