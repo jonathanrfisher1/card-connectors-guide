@@ -10,10 +10,10 @@ Here is an example:
 ```
 {
   "image": {
-    "href": "http://acme.com/connectors/weather-connector-id/images/connector.png"
+    "href": "http://weather-connector.acme.com/images/connector.png"
   },
   "test_auth": {
-    "href": "http://acme.com/connectors/weather-connector-id/test-auth"
+    "href": "http://weather-connector.acme.com/test-auth"
   },
   "object_types": [
     {
@@ -28,7 +28,7 @@ Here is an example:
         }
       },
       "endpoint": {
-        "href": "http://acme.com/connectors/weather-connector-id/cards/requests"
+        "href": "http://weather-connector.acme.com/cards/requests"
       }
     }
   ]
