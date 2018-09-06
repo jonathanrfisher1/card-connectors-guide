@@ -27,9 +27,8 @@ Here is an example:
       "action_key": "DIRECT"
     }
   ],
-  "object_types": [
-    {
-      "name": "card",
+  "object_types": {
+    "card": {
       "doc": {
         "href": "https://vmwaresamples.github.io/card-connectors-guide/#schema/herocard-response-schema.json"
       },
@@ -43,7 +42,7 @@ Here is an example:
         "href": "https://weather-connector.acme.com/cards/requests"
       }
     }
-  ]
+  }
 }
 ```   
 The `image` link tells Mobile Flows Server where to find an image to be displayed by clients.  The image should be a PNG.
