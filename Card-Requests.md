@@ -6,18 +6,14 @@ Here is an example request:
 
 ```javascript
 {
-  "card_requests": [
-    {
-      "tokens": {
-        "zip": [
-          "30080",
-          "30067",
-          "30332",
-          "00100"
-        ]
-      },
-      "connector_id": "238ff136-1f49-4c88-8acd-aa4c3749a75c"
-    }
-  ]
+  "tokens": {
+    "zip": [
+      "30080",
+      "30067",
+      "30332",
+      "00100"
+    ]
+  },
+  "connector_id": "238ff136-1f49-4c88-8acd-aa4c3749a75c"
 }
 ``` 
