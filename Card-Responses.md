@@ -29,7 +29,7 @@ Here is an example response:
       "actions": [
         {
           "url": {
-            "href": "https://hero.vmwservices.com/connectors/<weather-connector-id>/reports"
+            "href": "https://hero.vmwservices.com/connectors/<weather-connector-id>/card/reports"
           },
           "id": "75befd7f-99f0-4980-90a6-8daf6270770f",
           "user_input": [
@@ -72,7 +72,7 @@ Here is an example response:
       "actions": [
         {
           "url": {
-            "href": "https://hero.vmwservices.com/connectors/<weather-connector-id>/reports"
+            "href": "https://hero.vmwservices.com/connectors/<weather-connector-id>/card/reports"
           },
           "id": "6d8caf05-e93d-4521-b603-c5a4dffc5176",
           "user_input": [
@@ -115,7 +115,7 @@ Here is an example response:
       "actions": [
         {
           "url": {
-            "href": "https://hero.vmwservices.com/connectors/<weather-connector-id>/reports"
+            "href": "https://hero.vmwservices.com/connectors/<weather-connector-id>/card/reports"
           },
           "id": "5ede58dc-c479-46e0-a70e-03b772fb78fd",
           "user_input": [
@@ -158,7 +158,7 @@ Here is an example response:
       "actions": [
         {
           "url": {
-            "href": "https://hero.vmwservices.com/connectors/<weather-connector-id>/reports"
+            "href": "https://hero.vmwservices.com/connectors/<weather-connector-id>/card/reports"
           },
           "id": "2274b789-7179-44e9-8c11-941cfa58c9b0",
           "user_input": [
